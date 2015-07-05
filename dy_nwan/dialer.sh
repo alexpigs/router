@@ -1,6 +1,7 @@
 #!/bin/sh
 # usage dialer.sh idx(1|2|3)
 
+#test
 IDX=$1
 wanx_dir=$(nvram get wanx_dir)
 VPREX=mc
