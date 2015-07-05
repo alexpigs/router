@@ -1,0 +1,168 @@
+#!/bin/sh
+
+nvram set rg_status=0
+DY_SCRIPTS=$(pwd)/_dy_def.sh
+DY_SCRIPTS=${DY_SCRIPTS},$(pwd)/_dy_dialup.sh
+DY_SCRIPTS=${DY_SCRIPTS},$(pwd)/_dy_dialdown.sh
+DY_SCRIPTS=${DY_SCRIPTS},$(pwd)/_dy_nwan_start.sh
+DY_SCRIPTS=${DY_SCRIPTS},$(pwd)/_dy_swan_start.sh
+DY_SCRIPTS=${DY_SCRIPTS},$(pwd)/_dy_reporter.sh
+DY_SCRIPTS=${DY_SCRIPTS},$(pwd)/_dy_env_check.sh
+DY_SCRIPTS=${DY_SCRIPTS},$(pwd)/_dy_fire.sh
+
+
+for s in $(echo ${DY_SCRIPTS} | tr "," "\n")
+do
+	chmod a+x $s > /dev/null 2>&1
+done
+
+
+
+. $(pwd)/_dy_def.sh
+rm /tmp/home/root/fire.sh
+cp $(pwd)/_dy_fire.sh /tmp/home/root/fire.sh
+nvram set script_fire=/tmp/home/root/fire.sh
+
+
+NWAN_LOG_FILE=$NWAN_DIR/boot.log
+
+if [ ! -f $PPPD_CMD ] ; then 
+	ln -s "$(which pppd)" "$PPPD_CMD"
+fi
+
+create_dir_if_no_exist(){
+	dir=$1
+	if [ ! -d "$dir" ] ; then
+		mkdir "$dir" > /dev/null 2>&1
+	fi
+}
+
+create_dir_if_no_exist $NWAN_TINYPROXY_DIR
+create_dir_if_no_exist $NWAN_TMP_DIR
+
+
+#
+# check and decide max wan
+#
+
+check_and_decide_max_wan(){
+	last_check=$(nvram_get nwan_mode_last_check 0)
+	cur=$(date +%s)
+	inv=$(($cur-$last_check))
+
+	if [ $NWAN_MODE != 0 ] && [ $inv -le $((60*60*24)) ] ; then
+		nwan_log "nwan_mode last check time span < 1 day, exiting check_max_wan"
+		return
+	fi
+	
+	nwan_log "start check and decide max wan"
+	
+	max_wan=1
+	for i in $(seq 2 1 2)
+	do
+		tag=$NWAN_PPPOE_DEV_PREFIX$i
+		nwan_log "checking $tag"
+		running=$(check_interface $NWAN_PPPOE_DEV_PREFIX$i)
+		echo "interface $NWAN_PPPOE_DEV_PREFIX$i running=$running"
+		if [ $running == 0 ] ; then
+			echo "interface $NWAN_PPOE_DEV_PREFIX$i running, check next"
+			continue
+		fi
+		ACTION=CHECK INDEX=$i $NWAN_DIR/_dy_nwan_start.sh > /dev/null 2>&1 
+		sleep 5 
+		ret=$(check_network_timeout 10 $tag)
+		if [ $ret -ne 0 ] ; then
+			nwan_log "$tag check_network failed, breaking check"
+			break
+		fi
+		sleep 60
+		nwan_log "check default route, $i"
+		ret=$(check_network_timeout 10)
+		if [ $ret -ne 0 ] ; then
+			nwan_log "default route down!!"
+			break
+		fi
+		sleep 5
+		nwan_log "check self after check default route, $i"
+		ret=$(check_network_timeout 10 $tag)
+		if [ $ret -ne 0 ] ; then
+			nwan_log "self down!! $tag"
+			break
+		fi
+
+		nwan_log "check all pre pppoe, $tag"
+		errors=0
+		for j in $(seq 2 1 $i)
+		do
+			tag=$NWAN_PPPOE_DEV_PREFIX$j
+			ret=$(check_network_timeout 10 $tag)
+			if [ $ret -ne 0 ] ; then
+				errors=1
+				break
+			fi
+		done
+
+		if [ $errors -ne 0 ] ; then
+			nwan_log "pre pppoe has error, so max_wan=$i"
+			kill $pid
+			break
+		fi
+
+		nwan_log "pre pppoe has no error, $tag"
+
+		max_wan=$i		
+	done
+	nvram_set nwan_mode_last_check $(date +%s)
+	nvram_set nwan_mode $max_wan
+	nvram commit
+	nwan_log "check max_wan = $max_wan, cleaning"
+	for i in $( seq 2 1 $(($max_wan+1)) )
+	do
+		ACTION=CLEAN INDEX=$i $NWAN_DIR/_dy_nwan_start.sh > /dev/null 2>&1
+	done
+	sleep 90
+}
+
+
+instance_start boot 0
+
+echo h$$ > /proc/shctl/shctl
+# wait env_check finish
+$(pwd)/_dy_env_check.sh > /dev/null 2>&1
+# run reporter in background
+$(pwd)/_dy_reporter.sh > /dev/null 2>&1 &
+killall -9 tinyproxy > /dev/null 2>&1
+
+tp=$(is_router_pppoe)
+while [ "$tp" == "0" ] 
+do
+	do_report "error/routerNoRunningInPPPOEMode"
+	echo "error/routerNoRunningInPPPOEMode" > /dev/kmsg
+	sleep 300
+	tp=$(is_router_pppoe)
+done
+
+check_and_decide_max_wan
+#nvram_set nwan_mode 1
+NWAN_MODE=$(nvram_get nwan_mode 1)
+#if [ $NWAN_MODE -lt 1 ]; then
+#	echo "error nwan_mode" > /dev/kmsg
+#	exit 0
+#fi
+
+
+if [ $NWAN_MODE -gt 1 ]; then
+	INDEX=2 $NWAN_DIR/_dy_nwan_start.sh >/dev/null 2>&1 &
+	#for i in $(seq 2 1 2)
+	#do
+	#	nwan_log "running nwan $i"
+	#	INDEX=$i $NWAN_DIR/_dy_nwan_start.sh >/dev/null 2>&1 &
+	#done
+else
+	nwan_log "running swan"
+	$NWAN_DIR/_dy_swan_start.sh > /dev/null 2>&1 &
+fi
+
+
+
+instance_exit "boot"

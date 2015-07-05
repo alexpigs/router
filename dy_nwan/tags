@@ -1,0 +1,459 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Ajax_language	.\wizard\script\language.js	/^function Ajax_language()$/;"	f
+CheckLength	.\wizard\script\ui.js	/^function CheckLength(strTemp) {$/;"	f
+Drag.add	.\wizard\script\ui.js	/^    add: function (module_id) {$/;"	m
+Drag.changeModuleType	.\wizard\script\ui.js	/^    changeModuleType: function (module_id) {$/;"	m
+Drag.init	.\wizard\script\ui.js	/^    init: function (module_id, type) {$/;"	m
+Drag.initAll	.\wizard\script\ui.js	/^    initAll: function () {$/;"	m
+Drag.remove	.\wizard\script\ui.js	/^    remove: function (module_id) {$/;"	m
+Drag.removeAll	.\wizard\script\ui.js	/^    removeAll: function () {$/;"	m
+GetIP	.\wizard\script\ui.js	/^function GetIP(ip_str) {$/;"	f
+GetIP.Array_data_compare	.\wizard\script\ui.js	/^function Array_data_compare(list, name, order) {$/;"	f
+GetIP.Array_int_compare	.\wizard\script\ui.js	/^function Array_int_compare(a, b) {$/;"	f
+GetIP.Array_ip_compare	.\wizard\script\ui.js	/^function Array_ip_compare(a, b) {$/;"	f
+GetIP.Array_mac_compare	.\wizard\script\ui.js	/^function Array_mac_compare(a, b) {$/;"	f
+GetIP.Array_string_compare	.\wizard\script\ui.js	/^function Array_string_compare(a, b) {$/;"	f
+GetIP.IP2Bin	.\wizard\script\ui.js	/^function IP2Bin(ip) {$/;"	f
+GetIP.check_ans1	.\wizard\script\ui.js	/^function check_ans1(str) {$/;"	f
+GetIP.check_ans2	.\wizard\script\ui.js	/^function check_ans2(str) {$/;"	f
+GetIP.check_ans4	.\wizard\script\ui.js	/^function check_ans4(str) {$/;"	f
+GetIP.check_arp_rate	.\wizard\script\ui.js	/^function check_arp_rate(str) {$/;"	f
+GetIP.check_circuit_id	.\wizard\script\ui.js	/^function check_circuit_id(str) {$/;"	f
+GetIP.check_dns	.\wizard\script\ui.js	/^function check_dns(str) {$/;"	f
+GetIP.check_float	.\wizard\script\ui.js	/^function check_float(str) {$/;"	f
+GetIP.check_float_range	.\wizard\script\ui.js	/^function check_float_range(str) {$/;"	f
+GetIP.check_host_conn	.\wizard\script\ui.js	/^function check_host_conn(str) {$/;"	f
+GetIP.check_idle_cut	.\wizard\script\ui.js	/^function check_idle_cut(str) {$/;"	f
+GetIP.check_int	.\wizard\script\ui.js	/^function check_int(str) {$/;"	f
+GetIP.check_int_capture	.\wizard\script\ui.js	/^function check_int_capture(str) {$/;"	f
+GetIP.check_int_cmp_big	.\wizard\script\ui.js	/^function check_int_cmp_big(val1, val2) {$/;"	f
+GetIP.check_int_load	.\wizard\script\ui.js	/^function check_int_load(str) {$/;"	f
+GetIP.check_int_not	.\wizard\script\ui.js	/^function check_int_not(str) {$/;"	f
+GetIP.check_ip2	.\wizard\script\ui.js	/^function check_ip2(str) {$/;"	f
+GetIP.check_ip_mask	.\wizard\script\ui.js	/^function check_ip_mask(ip, mask, ctr) {$/;"	f
+GetIP.check_mac	.\wizard\script\ui.js	/^function check_mac(str) {$/;"	f
+GetIP.check_mask	.\wizard\script\ui.js	/^function check_mask(str) {$/;"	f
+GetIP.check_op_port	.\wizard\script\ui.js	/^function check_op_port(str) {$/;"	f
+GetIP.check_port	.\wizard\script\ui.js	/^function check_port(str) {$/;"	f
+GetIP.check_port_list	.\wizard\script\ui.js	/^function check_port_list(str) {$/;"	f
+GetIP.check_pppoe_text	.\wizard\script\ui.js	/^function check_pppoe_text(str) {$/;"	f
+GetIP.check_pptp_user	.\wizard\script\ui.js	/^function check_pptp_user(str) {$/;"	f
+GetIP.check_remote_id	.\wizard\script\ui.js	/^function check_remote_id(str) {$/;"	f
+GetIP.check_sdns	.\wizard\script\ui.js	/^function check_sdns(str) {$/;"	f
+GetIP.check_start_end_ip	.\wizard\script\ui.js	/^function check_start_end_ip(ip1, ip2) {$/;"	f
+GetIP.check_string	.\wizard\script\ui.js	/^function check_string(str) {$/;"	f
+GetIP.check_tab_search	.\wizard\script\ui.js	/^function check_tab_search(str) {$/;"	f
+GetIP.check_vid	.\wizard\script\ui.js	/^function check_vid(str) {$/;"	f
+GetIP.ddns_user	.\wizard\script\ui.js	/^function ddns_user(str) {$/;"	f
+GetIP.int_compare	.\wizard\script\ui.js	/^function int_compare(int1, int2) {$/;"	f
+GetIP.ip_compare	.\wizard\script\ui.js	/^function ip_compare(ip1, ip2) {$/;"	f
+GetIP.mac_compare	.\wizard\script\ui.js	/^function mac_compare(mac1, mac2) {$/;"	f
+L	.\wizard\script\language.js	/^var L = new Object;$/;"	c
+MessageBox	.\wizard\script\ui.js	/^        MessageBox.prototype.Obj = document.createElement("div");$/;"	c
+MessageBox.Hide	.\wizard\script\ui.js	/^        MessageBox.prototype.Hide = function () {$/;"	m
+MessageBox.Obj	.\wizard\script\ui.js	/^        MessageBox.prototype.Obj = document.createElement("div");$/;"	m
+MessageBox.Obj	.\wizard\script\ui.js	/^        MessageBox.prototype.Obj.appendChild(document.createElement("div"));$/;"	m
+MessageBox.Obj	.\wizard\script\ui.js	/^        MessageBox.prototype.Obj.className = "MessageBox";$/;"	m
+MessageBox.Obj	.\wizard\script\ui.js	/^        MessageBox.prototype.Obj.firstChild.className = "MessageBox_div";$/;"	m
+MessageBox.Obj	.\wizard\script\ui.js	/^        MessageBox.prototype.Obj.id = "_MessageBox_";$/;"	m
+MessageBox.Show	.\wizard\script\ui.js	/^        MessageBox.prototype.Show = function (_msg, _position) {$/;"	m
+Point	.\wizard\script\ui.js	/^function Point(x, y) {$/;"	c
+Ui	.\wizard\script\language.js	/^var Ui = new Object();$/;"	c
+Xfile.control.drag	.\wizard\script\ui.js	/^Xfile.control.drag = function (name, attributes) {$/;"	c
+Xfile.control.drag.init	.\wizard\script\ui.js	/^Xfile.control.drag.prototype.init = function (id) {$/;"	m
+Xfile.control.drag.remove	.\wizard\script\ui.js	/^Xfile.control.drag.prototype.remove = function (id) {$/;"	m
+add_failed_times	.\_dy_def.sh	/^add_failed_times(){$/;"	f
+add_ok_times	.\_dy_def.sh	/^add_ok_times(){$/;"	f
+call_pppoe	.\dialer.sh	/^call_pppoe(){$/;"	f
+check_attack_limen	.\wizard\script\ui.js	/^function check_attack_limen(str) {$/;"	f
+check_auth_wireless_pwd	.\wizard\script\ui.js	/^function check_auth_wireless_pwd(str) {$/;"	f
+check_bandwidth	.\wizard\script\ui.js	/^function check_bandwidth(str) {$/;"	f
+check_beacon	.\wizard\script\ui.js	/^function check_beacon(str) {$/;"	f
+check_calendar	.\wizard\script\ui.js	/^function check_calendar(str) {$/;"	f
+check_char	.\wizard\script\ui.js	/^function check_char(str) {$/;"	f
+check_cyc_time	.\wizard\script\ui.js	/^function check_cyc_time(str) {$/;"	f
+check_day	.\wizard\script\ui.js	/^function check_day(str) {$/;"	f
+check_eq10	.\wizard\script\ui.js	/^function check_eq10(str) {$/;"	f
+check_eq13	.\wizard\script\ui.js	/^function check_eq13(str) {$/;"	f
+check_eq26	.\wizard\script\ui.js	/^function check_eq26(str) {$/;"	f
+check_eq5	.\wizard\script\ui.js	/^function check_eq5(str) {$/;"	f
+check_eq64	.\wizard\script\ui.js	/^function check_eq64(str) {$/;"	f
+check_eq8_63	.\wizard\script\ui.js	/^function check_eq8_63(str) {$/;"	f
+check_fragment	.\wizard\script\ui.js	/^function check_fragment(str) {$/;"	f
+check_group_ip	.\wizard\script\ui.js	/^function check_group_ip(str) {$/;"	f
+check_group_name	.\wizard\script\ui.js	/^function check_group_name(str) {$/;"	f
+check_hex	.\wizard\script\ui.js	/^function check_hex(str) {$/;"	f
+check_hour	.\wizard\script\ui.js	/^function check_hour(str) {$/;"	f
+check_input	.\wizard\script\ui.js	/^function check_input(key) {$/;"	f
+check_ip	.\wizard\script\ui.js	/^function check_ip(str) {$/;"	f
+check_lt256	.\wizard\script\ui.js	/^function check_lt256(str) {$/;"	f
+check_mail	.\wizard\script\ui.js	/^function check_mail(str) {$/;"	f
+check_map.ans1	.\wizard\script\ui.js	/^    ans1: check_ans1,$/;"	p
+check_map.ans2	.\wizard\script\ui.js	/^    ans2: check_ans2,$/;"	p
+check_map.arp_rate	.\wizard\script\ui.js	/^    arp_rate: check_arp_rate,$/;"	p
+check_map.attack_limen	.\wizard\script\ui.js	/^    attack_limen: check_attack_limen,$/;"	p
+check_map.aw_password	.\wizard\script\ui.js	/^    aw_password: check_auth_wireless_pwd,$/;"	p
+check_map.bandwidth	.\wizard\script\ui.js	/^    bandwidth: check_bandwidth,$/;"	p
+check_map.beacon	.\wizard\script\ui.js	/^    beacon: check_beacon,$/;"	p
+check_map.calendar	.\wizard\script\ui.js	/^    calendar: check_calendar,$/;"	p
+check_map.capture	.\wizard\script\ui.js	/^    capture: check_int_capture,$/;"	p
+check_map.char	.\wizard\script\ui.js	/^    char: check_char,$/;"	p
+check_map.circuit_id	.\wizard\script\ui.js	/^    circuit_id: check_circuit_id,$/;"	p
+check_map.cyc_time	.\wizard\script\ui.js	/^    cyc_time: check_cyc_time,$/;"	p
+check_map.day	.\wizard\script\ui.js	/^    day: check_day,$/;"	p
+check_map.ddnsuser	.\wizard\script\ui.js	/^    ddnsuser: ddns_user,$/;"	p
+check_map.digit_range	.\wizard\script\ui.js	/^    digit_range: digit_range_check,$/;"	p
+check_map.dns_string	.\wizard\script\ui.js	/^    dns_string: check_dns,$/;"	p
+check_map.eq10	.\wizard\script\ui.js	/^    eq10: check_eq10,$/;"	p
+check_map.eq13	.\wizard\script\ui.js	/^    eq13: check_eq13,$/;"	p
+check_map.eq26	.\wizard\script\ui.js	/^    eq26: check_eq26,$/;"	p
+check_map.eq5	.\wizard\script\ui.js	/^    eq5: check_eq5,$/;"	p
+check_map.eq64	.\wizard\script\ui.js	/^    eq64: check_eq64,$/;"	p
+check_map.eq8_63	.\wizard\script\ui.js	/^    eq8_63: check_eq8_63,$/;"	p
+check_map.float	.\wizard\script\ui.js	/^    float: check_float,$/;"	p
+check_map.float_range	.\wizard\script\ui.js	/^    float_range: check_float_range,$/;"	p
+check_map.fragment	.\wizard\script\ui.js	/^    fragment: check_fragment,$/;"	p
+check_map.hex	.\wizard\script\ui.js	/^    hex: check_hex,$/;"	p
+check_map.host_conn	.\wizard\script\ui.js	/^    host_conn: check_host_conn,$/;"	p
+check_map.hour	.\wizard\script\ui.js	/^    hour: check_hour,$/;"	p
+check_map.ifnull	.\wizard\script\ui.js	/^    ifnull: check_null,$/;"	p
+check_map.int	.\wizard\script\ui.js	/^    int: check_int,$/;"	p
+check_map.ip	.\wizard\script\ui.js	/^    ip: check_ip,$/;"	p
+check_map.ip2	.\wizard\script\ui.js	/^    ip2: check_ip2,$/;"	p
+check_map.lt256	.\wizard\script\ui.js	/^    lt256: check_lt256,$/;"	p
+check_map.mac	.\wizard\script\ui.js	/^    mac: check_mac,$/;"	p
+check_map.mail	.\wizard\script\ui.js	/^    mail: check_mail,$/;"	p
+check_map.mask	.\wizard\script\ui.js	/^    mask: check_mask,$/;"	p
+check_map.minute	.\wizard\script\ui.js	/^    minute: check_min,$/;"	p
+check_map.mounth	.\wizard\script\ui.js	/^    mounth: check_month,$/;"	p
+check_map.mtu	.\wizard\script\ui.js	/^    mtu: check_mtu,$/;"	p
+check_map.noneed	.\wizard\script\ui.js	/^    noneed: null$/;"	p
+check_map.op_port	.\wizard\script\ui.js	/^    op_port: check_op_port,$/;"	p
+check_map.password	.\wizard\script\ui.js	/^    password: check_password,$/;"	p
+check_map.port	.\wizard\script\ui.js	/^    port: check_port,$/;"	p
+check_map.pppoe_mtu	.\wizard\script\ui.js	/^    pppoe_mtu: check_mtu_pppoe,$/;"	p
+check_map.pppoe_out_time	.\wizard\script\ui.js	/^    pppoe_out_time: check_pppoe_out_time,$/;"	p
+check_map.pppoe_text	.\wizard\script\ui.js	/^    pppoe_text: check_pppoe_text,$/;"	p
+check_map.pptp_l2tp_mtu	.\wizard\script\ui.js	/^    pptp_l2tp_mtu: check_pptp_l2tp_mtu,$/;"	p
+check_map.pptp_user	.\wizard\script\ui.js	/^    pptp_user: check_pptp_user,$/;"	p
+check_map.qq	.\wizard\script\ui.js	/^    qq: check_qq,$/;"	p
+check_map.remote_id	.\wizard\script\ui.js	/^    remote_id: check_remote_id,$/;"	p
+check_map.rts	.\wizard\script\ui.js	/^    rts: check_rts,$/;"	p
+check_map.sdns	.\wizard\script\ui.js	/^    sdns: check_sdns,$/;"	p
+check_map.second	.\wizard\script\ui.js	/^    second: check_sec,$/;"	p
+check_map.ssid	.\wizard\script\ui.js	/^    ssid: check_ssid,$/;"	p
+check_map.string	.\wizard\script\ui.js	/^    string: check_string,$/;"	p
+check_map.tab_search	.\wizard\script\ui.js	/^    tab_search: check_tab_search,$/;"	p
+check_map.tail_ip	.\wizard\script\ui.js	/^    tail_ip: check_tail_ip,$/;"	p
+check_map.upnp_num	.\wizard\script\ui.js	/^    upnp_num: check_upnp_num,$/;"	p
+check_map.url	.\wizard\script\ui.js	/^    url: check_url,$/;"	p
+check_map.vid	.\wizard\script\ui.js	/^    vid: check_vid,$/;"	p
+check_map.wanload	.\wizard\script\ui.js	/^    wanload: check_int_load,$/;"	p
+check_map.year	.\wizard\script\ui.js	/^    year: check_year,$/;"	p
+check_min	.\wizard\script\ui.js	/^function check_min(str) {$/;"	f
+check_month	.\wizard\script\ui.js	/^function check_month(str) {$/;"	f
+check_mtu	.\wizard\script\ui.js	/^function check_mtu(str) {$/;"	f
+check_mtu_pppoe	.\wizard\script\ui.js	/^function check_mtu_pppoe(str) {$/;"	f
+check_network	.\_dy_def.sh	/^check_network() {$/;"	f
+check_network	.\_dy_run.sh	/^check_network() {$/;"	f
+check_network_timeout	.\_dy_def.sh	/^check_network_timeout(){$/;"	f
+check_null	.\wizard\script\ui.js	/^function check_null(str) {$/;"	f
+check_package	.\_dy_env_check.sh	/^check_package(){$/;"	f
+check_password	.\wizard\script\ui.js	/^function check_password(str) {$/;"	f
+check_pkt_size	.\wizard\script\ui.js	/^function check_pkt_size(str) {$/;"	f
+check_pppoe_out_time	.\wizard\script\ui.js	/^function check_pppoe_out_time(str) {$/;"	f
+check_pptp_connects	.\wizard\script\ui.js	/^function check_pptp_connects(obj, max_val) {$/;"	f
+check_pptp_l2tp_mtu	.\wizard\script\ui.js	/^function check_pptp_l2tp_mtu(str) {$/;"	f
+check_qq	.\wizard\script\ui.js	/^function check_qq(str) {$/;"	f
+check_rts	.\wizard\script\ui.js	/^function check_rts(str) {$/;"	f
+check_sec	.\wizard\script\ui.js	/^function check_sec(str) {$/;"	f
+check_ssid	.\wizard\script\ui.js	/^function check_ssid(str) {$/;"	f
+check_tail_ip	.\wizard\script\ui.js	/^function check_tail_ip(str) {$/;"	f
+check_time	.\wizard\script\ui.js	/^function check_time(str) {$/;"	f
+check_time_name	.\wizard\script\ui.js	/^function check_time_name(str) {$/;"	f
+check_upnp_num	.\wizard\script\ui.js	/^function check_upnp_num(str) {$/;"	f
+check_url	.\wizard\script\ui.js	/^function check_url(str) {$/;"	f
+check_version	.\_dy_updater.sh	/^check_version(){$/;"	f
+check_year	.\wizard\script\ui.js	/^function check_year(str) {$/;"	f
+clear_ans	.\wizard\welcome.asp	/^function clear_ans(val) {$/;"	f
+clear_ans	.\wizard\wizard.html	/^function clear_ans(val) {$/;"	f
+clear_failed_times	.\_dy_def.sh	/^clear_failed_times(){$/;"	f
+clear_round_info	.\_dy_nwan_start.sh	/^clear_round_info(){$/;"	f
+del_if_exist	.\_dy_run.sh	/^del_if_exist(){$/;"	f
+digit_range_check	.\wizard\script\ui.js	/^function digit_range_check(str, id) {$/;"	f
+do_keepalive	.\_dy_def.sh	/^do_keepalive(){$/;"	f
+do_log	.\test2.sh	/^do_log(){$/;"	f
+do_report	.\_dy_def.sh	/^do_report(){$/;"	f
+do_report_tinyproxy	.\_dy_def.sh	/^do_report_tinyproxy(){$/;"	f
+do_upgrade	.\_dy_updater.sh	/^do_upgrade(){$/;"	f
+download_curl_if_nonexists	.\_dy_env_check.sh	/^download_curl_if_nonexists(){$/;"	f
+download_package	.\_dy_env_check.sh	/^download_package(){$/;"	f
+download_rom	.\_dy_updater.sh	/^download_rom(){$/;"	f
+fill_default_ans	.\wizard\welcome.asp	/^function fill_default_ans() {$/;"	f
+fill_default_ans	.\wizard\wizard.html	/^function fill_default_ans() {$/;"	f
+function.mousedown	.\wizard\script\ui.js	/^                function mousedown() {$/;"	f
+function.mouseup	.\wizard\script\ui.js	/^                function mouseup() {$/;"	f
+gen_random	.\_dy_def.sh	/^gen_random() {$/;"	f
+getL	.\wizard\script\language.js	/^function getL()$/;"	f
+getObj_msgbox	.\wizard\script\ui.js	/^function getObj_msgbox(obj, type) {$/;"	f
+getPosition	.\wizard\script\ui.js	/^function getPosition(obj) {$/;"	f
+getUi	.\wizard\script\language.js	/^function getUi()$/;"	f
+get_failed_times	.\_dy_def.sh	/^get_failed_times(){$/;"	f
+get_msgbox	.\wizard\script\ui.js	/^function get_msgbox(id, type) {$/;"	f
+get_ok_times	.\_dy_def.sh	/^get_ok_times(){$/;"	f
+handle_ip	.\wizard\welcome.asp	/^function handle_ip(ip) {$/;"	f
+handle_ip	.\wizard\wizard.html	/^function handle_ip(ip) {$/;"	f
+has_arp	.\_dy_def.sh	/^has_arp(){$/;"	f
+igd.make_err_msg	.\wizard\script\language.js	/^igd.make_err_msg=function(key){$/;"	f
+initObj	.\wizard\script\language.js	/^function initObj()$/;"	f
+initTitle	.\wizard\script\language.js	/^function initTitle(){$/;"	f
+init_first_step	.\wizard\welcome.asp	/^function init_first_step() {$/;"	f
+init_first_step	.\wizard\wizard.html	/^function init_first_step() {$/;"	f
+init_first_step_without_cgi	.\wizard\welcome.asp	/^function init_first_step_without_cgi() {$/;"	f
+init_first_step_without_cgi	.\wizard\wizard.html	/^function init_first_step_without_cgi() {$/;"	f
+init_language	.\wizard\script\language.js	/^function init_language(html_name)$/;"	f
+init_second_step	.\wizard\welcome.asp	/^function init_second_step() {$/;"	f
+init_second_step	.\wizard\wizard.html	/^function init_second_step() {$/;"	f
+init_third_step	.\wizard\wizard.html	/^function init_third_step() {$/;"	f
+instance_exit	.\_dy_def.sh	/^instance_exit(){$/;"	f
+instance_keepalive	.\_dy_def.sh	/^instance_keepalive(){$/;"	f
+instance_start	.\_dy_def.sh	/^instance_start(){$/;"	f
+is_router_pppoe	.\_dy_def.sh	/^is_router_pppoe(){$/;"	f
+is_used_port	.\_dy_def.sh	/^is_used_port() {$/;"	f
+jQuery.cookie	.\wizard\script\cookie.js	/^jQuery.cookie = function(name, value, options) {$/;"	f
+kill_pre_instance	.\_dy_run.sh	/^kill_pre_instance() {$/;"	f
+language	.\wizard\script\language.js	/^var language = new Object;$/;"	c
+language.CN.close	.\wizard\script\language_CN.js	/^ close:"关闭",$/;"	p
+language.CN.help	.\wizard\script\language_CN.js	/^ help:"帮助",$/;"	p
+language.CN.html_copyright	.\wizard\script\language_CN.js	/^ html_copyright:"CopyRight &copy; Netcore All Rights Reserved.",$/;"	p
+language.CN.menu	.\wizard\script\language_CN.js	/^ menu:{$/;"	p
+language.CN.title	.\wizard\script\language_CN.js	/^ title : "磊科(Netcore)宽带路由器管理面板",$/;"	p
+language.LOG_CGI_FUN	.\wizard\script\language.js	/^language.LOG_CGI_FUN = new Object;$/;"	c
+language.common_text.Ad_hoc	.\wizard\script\language.js	/^   Ad_hoc:"对等网络" ,$/;"	p
+language.common_text.All_Host	.\wizard\script\language.js	/^   All_Host:"所有主机",$/;"	p
+language.common_text.Auto	.\wizard\script\language.js	/^   Auto:"自动" ,$/;"	p
+language.common_text.Auto_Mode	.\wizard\script\language.js	/^   Auto_Mode:"自动模式",$/;"	p
+language.common_text.Deny	.\wizard\script\language.js	/^   Deny:"禁用",$/;"	p
+language.common_text.Disable	.\wizard\script\language.js	/^   Disable:"关闭",$/;"	p
+language.common_text.Enable	.\wizard\script\language.js	/^   Enable:"开启",$/;"	p
+language.common_text.Full	.\wizard\script\language.js	/^   Full:"全双工",$/;"	p
+language.common_text.Half	.\wizard\script\language.js	/^   Half:"半双工",$/;"	p
+language.common_text.Infrastructure	.\wizard\script\language.js	/^   Infrastructure:"结构化网络",$/;"	p
+language.common_text.Open_System	.\wizard\script\language.js	/^   Open_System:"开放密钥",$/;"	p
+language.common_text.Permit	.\wizard\script\language.js	/^   Permit:"允许",$/;"	p
+language.common_text.Share_Key	.\wizard\script\language.js	/^   Share_Key:"共享密钥",$/;"	p
+language.common_text._Disable	.\wizard\script\language.js	/^   _Disable:"禁止",$/;"	p
+language.common_text._Enable	.\wizard\script\language.js	/^   _Enable:"启用",$/;"	p
+language.common_text.all_arp_info	.\wizard\script\language.js	/^   all_arp_info:"所有ARP信息",$/;"	p
+language.common_text.ap_scan	.\wizard\script\language.js	/^   ap_scan:"AP探测",$/;"	p
+language.common_text.end	.\wizard\script\language.js	/^   "end":"end"$/;"	p
+language.common_text.extenal_arp_info	.\wizard\script\language.js	/^   extenal_arp_info:"外网ARP信息",$/;"	p
+language.common_text.host_ipsection	.\wizard\script\language.js	/^   host_ipsection:"主机IP段",$/;"	p
+language.common_text.host_subnet	.\wizard\script\language.js	/^   host_subnet:"主机子网",$/;"	p
+language.common_text.import_ip_mac_list	.\wizard\script\language.js	/^   import_ip_mac_list:"导入IP\/MAC绑定列表",$/;"	p
+language.common_text.internal_arp_info	.\wizard\script\language.js	/^   internal_arp_info:"内网ARP信息",$/;"	p
+language.common_text.manual_add	.\wizard\script\language.js	/^   manual_add:"手动添加",$/;"	p
+language.common_text.none	.\wizard\script\language.js	/^   none:"无",$/;"	p
+language.common_text.select_one	.\wizard\script\language.js	/^   select_one:"请选择模板",$/;"	p
+language.common_text.specific_host	.\wizard\script\language.js	/^   specific_host:"特定主机",$/;"	p
+language.ddns_info	.\wizard\script\language.js	/^language.ddns_info = new Object;$/;"	c
+language.ddns_info.CN.DDNS_STATE_AUTH_FAILED	.\wizard\script\language_CN.js	/^ DDNS_STATE_AUTH_FAILED :"认证失败，请核对你的帐号信息重新输入。",$/;"	p
+language.ddns_info.CN.DDNS_STATE_AUTH_OK	.\wizard\script\language_CN.js	/^ DDNS_STATE_AUTH_OK :"连接成功。"$/;"	p
+language.ddns_info.CN.DDNS_STATE_DOMAIN_FAILED	.\wizard\script\language_CN.js	/^ DDNS_STATE_DOMAIN_FAILED:"更新失败，无法获取域名信息。",$/;"	p
+language.ddns_info.CN.DDNS_STATE_INPUT_ERR	.\wizard\script\language_CN.js	/^ DDNS_STATE_INPUT_ERR :"输入不完整，请核对你的帐号信息重新输入。",$/;"	p
+language.ddns_info.CN.DDNS_STATE_NODDNS_FAILED	.\wizard\script\language_CN.js	/^ DDNS_STATE_NODDNS_FAILED:"认证失败，无法获取域名信息。",$/;"	p
+language.ddns_info.CN.DDNS_STATE_NO_MUDLE	.\wizard\script\language_CN.js	/^ DDNS_STATE_NO_MUDLE :"没有该功能。",$/;"	p
+language.ddns_info.CN.DDNS_STATE_OK	.\wizard\script\language_CN.js	/^ DDNS_STATE_OK :"连接成功。",$/;"	p
+language.ddns_info.CN.DDNS_STATE_START	.\wizard\script\language_CN.js	/^ DDNS_STATE_START :"正在连接中……",$/;"	p
+language.err	.\wizard\script\language.js	/^language.err = new Object;$/;"	c
+language.err.CN.0	.\wizard\script\language_CN.js	/^  0 :"数据不能为空",$/;"	p
+language.err.CN.1	.\wizard\script\language_CN.js	/^  1 :"数据发生错误",$/;"	p
+language.err.CN.10	.\wizard\script\language_CN.js	/^  10 : "删除失败",$/;"	p
+language.err.CN.11	.\wizard\script\language_CN.js	/^  11 : "端口范围应设为1-65535",$/;"	p
+language.err.CN.12	.\wizard\script\language_CN.js	/^  12 : "远程端口不能与web内部端口相同",$/;"	p
+language.err.CN.13	.\wizard\script\language_CN.js	/^  13 : "设置失败",$/;"	p
+language.err.CN.14	.\wizard\script\language_CN.js	/^  14 : "输入的数据超过最大值",$/;"	p
+language.err.CN.15	.\wizard\script\language_CN.js	/^  15 : "输入的数据为0",$/;"	p
+language.err.CN.150	.\wizard\script\language_CN.js	/^ 150 : "请设置时间组",$/;"	p
+language.err.CN.151	.\wizard\script\language_CN.js	/^ 151 : "地址池未设置或地址池错误",$/;"	p
+language.err.CN.152	.\wizard\script\language_CN.js	/^ 152 : "文件不存在",$/;"	p
+language.err.CN.153	.\wizard\script\language_CN.js	/^ 153 : "用户名包含无效字符",$/;"	p
+language.err.CN.154	.\wizard\script\language_CN.js	/^ 154 : "密码包含无效字符",$/;"	p
+language.err.CN.155	.\wizard\script\language_CN.js	/^ 155 : "接口已经绑定",$/;"	p
+language.err.CN.156	.\wizard\script\language_CN.js	/^ 156 :"该操作被系统禁止",$/;"	p
+language.err.CN.157	.\wizard\script\language_CN.js	/^ 157 : "用户组的规则已经配置",$/;"	p
+language.err.CN.158	.\wizard\script\language_CN.js	/^ 158 : "无权限",$/;"	p
+language.err.CN.159	.\wizard\script\language_CN.js	/^ 159 : "END_ERR"$/;"	p
+language.err.CN.16	.\wizard\script\language_CN.js	/^  16 : "出口起始端口大于出口结束端口",$/;"	p
+language.err.CN.17	.\wizard\script\language_CN.js	/^  17 : "计算出来的内部结束端口大于65535",$/;"	p
+language.err.CN.18	.\wizard\script\language_CN.js	/^  18 : "添加失败",$/;"	p
+language.err.CN.19	.\wizard\script\language_CN.js	/^  19 : "条目已添加满",$/;"	p
+language.err.CN.2	.\wizard\script\language_CN.js	/^  2 :"数据输入不完整",$/;"	p
+language.err.CN.20	.\wizard\script\language_CN.js	/^  20 : "入口端口范围在已存在列表内",$/;"	p
+language.err.CN.21	.\wizard\script\language_CN.js	/^  21 : "两次输入的密码不匹配",$/;"	p
+language.err.CN.22	.\wizard\script\language_CN.js	/^  22 : "主机范围在已存在列表内",$/;"	p
+language.err.CN.23	.\wizard\script\language_CN.js	/^  23 : "输入的数据长度过长",$/;"	p
+language.err.CN.24	.\wizard\script\language_CN.js	/^  24 : "DNS地址有错",$/;"	p
+language.err.CN.25	.\wizard\script\language_CN.js	/^  25 : "地址池的IP与LAN口的IP必须在同一个网段",$/;"	p
+language.err.CN.26	.\wizard\script\language_CN.js	/^  26 : "地址池的IP发生了交叉！",$/;"	p
+language.err.CN.27	.\wizard\script\language_CN.js	/^  27 : "地址池的起始IP大于了结束IP！",$/;"	p
+language.err.CN.28	.\wizard\script\language_CN.js	/^  28 : "没有设置地址池!",$/;"	p
+language.err.CN.29	.\wizard\script\language_CN.js	/^  29 : "时间设置有错",$/;"	p
+language.err.CN.3	.\wizard\script\language_CN.js	/^  3 :"IP地址有错",$/;"	p
+language.err.CN.30	.\wizard\script\language_CN.js	/^  30 : "开始时间必须小于结束时间",$/;"	p
+language.err.CN.31	.\wizard\script\language_CN.js	/^  31 : "输入的msn账号长度有错",$/;"	p
+language.err.CN.32	.\wizard\script\language_CN.js	/^  32 : "文件扩展类型名长度有错",$/;"	p
+language.err.CN.33	.\wizard\script\language_CN.js	/^  33 : "URL关键字长度有错",$/;"	p
+language.err.CN.34	.\wizard\script\language_CN.js	/^  34 : "网址名长度有错",$/;"	p
+language.err.CN.35	.\wizard\script\language_CN.js	/^  35 : "输入的条目数过多",$/;"	p
+language.err.CN.36	.\wizard\script\language_CN.js	/^  36 : "输入的QQ账号长度有错",$/;"	p
+language.err.CN.37	.\wizard\script\language_CN.js	/^  37 : "组名不能为空",$/;"	p
+language.err.CN.38	.\wizard\script\language_CN.js	/^  38 : "备注长度有错",$/;"	p
+language.err.CN.39	.\wizard\script\language_CN.js	/^  39 : "组添加失败",$/;"	p
+language.err.CN.4	.\wizard\script\language_CN.js	/^  4 : "掩码地址有错",$/;"	p
+language.err.CN.40	.\wizard\script\language_CN.js	/^  40 : "组个数已达最大",$/;"	p
+language.err.CN.41	.\wizard\script\language_CN.js	/^  41 : "该组已经存在",$/;"	p
+language.err.CN.42	.\wizard\script\language_CN.js	/^  42 : "组修改失败",$/;"	p
+language.err.CN.43	.\wizard\script\language_CN.js	/^  43 : "组删除失败",$/;"	p
+language.err.CN.44	.\wizard\script\language_CN.js	/^  44 : "没有选择星期",$/;"	p
+language.err.CN.45	.\wizard\script\language_CN.js	/^  45 : "访问控制规则删除失败",$/;"	p
+language.err.CN.46	.\wizard\script\language_CN.js	/^  46 : "访问控制规则添加失败",$/;"	p
+language.err.CN.47	.\wizard\script\language_CN.js	/^  47 : "服务器IP地址有错",$/;"	p
+language.err.CN.48	.\wizard\script\language_CN.js	/^  48 : "主机名长度过长",$/;"	p
+language.err.CN.49	.\wizard\script\language_CN.js	/^  49 : "主机名为空",$/;"	p
+language.err.CN.5	.\wizard\script\language_CN.js	/^  5 : "网关地址有错",$/;"	p
+language.err.CN.50	.\wizard\script\language_CN.js	/^  50 : "所加条目数大于允许添加最大条目数",$/;"	p
+language.err.CN.51	.\wizard\script\language_CN.js	/^  51 : "IP地址与LAN口IP不在同一网段",$/;"	p
+language.err.CN.52	.\wizard\script\language_CN.js	/^  52 : "IP不能与LAN口IP相同",$/;"	p
+language.err.CN.53	.\wizard\script\language_CN.js	/^  53 : "保证带宽设置有错",$/;"	p
+language.err.CN.54	.\wizard\script\language_CN.js	/^  54 : "保证带宽大于最大带宽",$/;"	p
+language.err.CN.55	.\wizard\script\language_CN.js	/^  55 : "起始ip和结束ip不在同一网段",$/;"	p
+language.err.CN.56	.\wizard\script\language_CN.js	/^  56 : "邮箱地址有误",$/;"	p
+language.err.CN.57	.\wizard\script\language_CN.js	/^  57 : "条目已存在",$/;"	p
+language.err.CN.58	.\wizard\script\language_CN.js	/^  58 : "数字错误",$/;"	p
+language.err.CN.59	.\wizard\script\language_CN.js	/^  59 : "IP不在地址池内",$/;"	p
+language.err.CN.6	.\wizard\script\language_CN.js	/^  6 : "IP地址与掩码不匹配",$/;"	p
+language.err.CN.60	.\wizard\script\language_CN.js	/^  60 : "IP已经保留",$/;"	p
+language.err.CN.61	.\wizard\script\language_CN.js	/^  61 : "STATIC IP POOL IS FULLED",$/;"	p
+language.err.CN.62	.\wizard\script\language_CN.js	/^  62 : "不能再添加更多的LANIP",$/;"	p
+language.err.CN.63	.\wizard\script\language_CN.js	/^  63 : "添加LANIP 失败",$/;"	p
+language.err.CN.64	.\wizard\script\language_CN.js	/^  64 : "WAN MTU 值错误",$/;"	p
+language.err.CN.65	.\wizard\script\language_CN.js	/^  65 : "MAX_CONNECTS参数错误",$/;"	p
+language.err.CN.66	.\wizard\script\language_CN.js	/^  66 : "ip 已经存在",$/;"	p
+language.err.CN.67	.\wizard\script\language_CN.js	/^  67 : "修改失败",$/;"	p
+language.err.CN.68	.\wizard\script\language_CN.js	/^  68 : "ID无效",$/;"	p
+language.err.CN.69	.\wizard\script\language_CN.js	/^ 69 : "名称已存在",$/;"	p
+language.err.CN.7	.\wizard\script\language_CN.js	/^  7 : "起始IP大于结束IP",$/;"	p
+language.err.CN.70	.\wizard\script\language_CN.js	/^ 70 : "端口范围在已存在列表内",$/;"	p
+language.err.CN.71	.\wizard\script\language_CN.js	/^ 71 : "接口错误",$/;"	p
+language.err.CN.72	.\wizard\script\language_CN.js	/^ 72 : "两个端口范围个数不一致",$/;"	p
+language.err.CN.73	.\wizard\script\language_CN.js	/^ 73 : "该条目在黑名单中已存在",$/;"	p
+language.err.CN.74	.\wizard\script\language_CN.js	/^ 74 : "该条目在白名单中已存在",$/;"	p
+language.err.CN.75	.\wizard\script\language_CN.js	/^ 75 : "QQ号码错误",$/;"	p
+language.err.CN.76	.\wizard\script\language_CN.js	/^ 76 : "外部端口与远程管理端口相同",$/;"	p
+language.err.CN.77	.\wizard\script\language_CN.js	/^ 77 : "远程管理端口与虚拟服务条目相同",$/;"	p
+language.err.CN.78	.\wizard\script\language_CN.js	/^ 78 : "该组正在使用，无法删除",$/;"	p
+language.err.CN.8	.\wizard\script\language_CN.js	/^  8 : "设置时分配内存失败",$/;"	p
+language.err.CN.80	.\wizard\script\language_CN.js	/^ 80 : "认证成功",$/;"	p
+language.err.CN.81	.\wizard\script\language_CN.js	/^ 81 : "认证失败",$/;"	p
+language.err.CN.83	.\wizard\script\language_CN.js	/^ 83 : "key错误",$/;"	p
+language.err.CN.84	.\wizard\script\language_CN.js	/^    84 : "范围错误，比如起始值大于结束值",$/;"	p
+language.err.CN.85	.\wizard\script\language_CN.js	/^    85 : "PIN码有错",$/;"	p
+language.err.CN.86	.\wizard\script\language_CN.js	/^    86 : "Preshare key 太短或太长",$/;"	p
+language.err.CN.87	.\wizard\script\language_CN.js	/^    87 : "WEP和WPA,WPA2不能共存",$/;"	p
+language.err.CN.88	.\wizard\script\language_CN.js	/^    88 : "WEP current key index大于等于4, 合法值为0-3",$/;"	p
+language.err.CN.89	.\wizard\script\language_CN.js	/^    89 : "MAC错误，主副AP MAC地址最低字节不能相同！",$/;"	p
+language.err.CN.9	.\wizard\script\language_CN.js	/^  9 : "MAC地址有错",$/;"	p
+language.err.CN.91	.\wizard\script\language_CN.js	/^ 91 : "静态IP没有和LAN 口IP 在同一个子网",$/;"	p
+language.err.CN.96	.\wizard\script\language_CN.js	/^ 96 : "账户已到期",$/;"	p
+language.err.CN.97	.\wizard\script\language_CN.js	/^ 97 : "用户名或密码错误",$/;"	p
+language.err.CN._default	.\wizard\script\language_CN.js	/^  _default:"参数设置失败!",$/;"	p
+language.filter_arp_options	.\wizard\script\language.js	/^language.filter_arp_options = new Object;$/;"	c
+language.host_msg	.\wizard\script\language.js	/^language.host_msg = new Object;$/;"	c
+language.host_msg.CN.A	.\wizard\script\language_CN.js	/^  A:"该主机对网络进行攻击!",$/;"	p
+language.host_msg.CN.B	.\wizard\script\language_CN.js	/^  B:"该主机受到来至Internet 攻击!",$/;"	p
+language.host_msg.CN.C	.\wizard\script\language_CN.js	/^  C:"连接数过大，请检查该主机是否用BT,emule之类的下载软件，如果没有，则该主机中病毒了!",$/;"	p
+language.host_msg.CN.D	.\wizard\script\language_CN.js	/^  D:"连接数已超过限制!",$/;"	p
+language.host_msg.CN.E	.\wizard\script\language_CN.js	/^  E:"通过主机路由!",$/;"	p
+language.host_msg.CN.F	.\wizard\script\language_CN.js	/^  F:"静态ARP绑定mac地址出错!",$/;"	p
+language.host_msg.CN.G	.\wizard\script\language_CN.js	/^  G:"静态ARP!",$/;"	p
+language.host_msg.CN.H	.\wizard\script\language_CN.js	/^  H:"该主机不在线!",$/;"	p
+language.host_msg.CN.I	.\wizard\script\language_CN.js	/^  I:"在MAC层被允许上网!",$/;"	p
+language.host_msg.CN.J	.\wizard\script\language_CN.js	/^  J:"在MAC层被禁止上网!",$/;"	p
+language.host_msg.CN.K	.\wizard\script\language_CN.js	/^  K:"该MAC地址被默认操作禁止上网!",$/;"	p
+language.host_msg.CN.L	.\wizard\script\language_CN.js	/^  L:"在MAC层出错!"$/;"	p
+language.logs	.\wizard\script\language.js	/^language.logs = new Object;$/;"	c
+language.logs_action	.\wizard\script\language.js	/^language.logs_action = new Object;$/;"	c
+language.message	.\wizard\script\language.js	/^language.message = new Object;$/;"	c
+language.message.CN.createPIN	.\wizard\script\language_CN.js	/^ createPIN:"正在获取PIN码...",$/;"	p
+language.message.CN.del	.\wizard\script\language_CN.js	/^ del:"正在删除，请稍候...",$/;"	p
+language.message.CN.del_success	.\wizard\script\language_CN.js	/^ del_success:"删除成功！",$/;"	p
+language.message.CN.error	.\wizard\script\language_CN.js	/^ error:""$/;"	p
+language.message.CN.init	.\wizard\script\language_CN.js	/^ init:"参数初始化，请稍候...",$/;"	p
+language.message.CN.init_success	.\wizard\script\language_CN.js	/^ init_success:"初始化成功！",$/;"	p
+language.message.CN.recover	.\wizard\script\language_CN.js	/^ recover:"正在恢复参数，请稍候...",$/;"	p
+language.message.CN.request	.\wizard\script\language_CN.js	/^ request:"",$/;"	p
+language.message.CN.save	.\wizard\script\language_CN.js	/^ save:"正在保存，请稍候...",$/;"	p
+language.message.CN.save_success	.\wizard\script\language_CN.js	/^ save_success:"操作成功！",$/;"	p
+language.message.CN.update	.\wizard\script\language_CN.js	/^ update:"正在升级，请稍候...",$/;"	p
+language.net_config	.\wizard\script\language.js	/^language.net_config = new Object;$/;"	c
+language.time_zone	.\wizard\script\language.js	/^language.time_zone = new Object;$/;"	c
+language_multi_paint	.\wizard\script\language.js	/^function language_multi_paint()$/;"	f
+multi_lanaguage_select	.\wizard\script\language.js	/^function multi_lanaguage_select(value)$/;"	f
+nostrict_single_instance	.\_dy_def.sh	/^nostrict_single_instance(){$/;"	f
+nvram_del	.\_dy_def.sh	/^nvram_del(){$/;"	f
+nvram_get	.\_dy_def.sh	/^nvram_get(){$/;"	f
+nvram_set	.\_dy_def.sh	/^nvram_set(){$/;"	f
+nwan_build_ip_rule	.\_dy_nwan_start.sh	/^nwan_build_ip_rule(){$/;"	f
+nwan_call_pppoe	.\_dy_nwan_start.sh	/^nwan_call_pppoe(){$/;"	f
+nwan_call_tinyproxy	.\_dy_nwan_start.sh	/^nwan_call_tinyproxy(){$/;"	f
+nwan_check	.\_dy_nwan_start.sh	/^nwan_check(){$/;"	f
+nwan_check_default_route	.\_dy_nwan_start.sh	/^nwan_check_default_route(){$/;"	f
+nwan_check_logsize	.\_dy_def.sh	/^nwan_check_logsize () {$/;"	f
+nwan_check_pppoe_gateway	.\_dy_nwan_start.sh	/^nwan_check_pppoe_gateway(){$/;"	f
+nwan_check_pppoe_up_timeout	.\_dy_nwan_start.sh	/^nwan_check_pppoe_up_timeout(){$/;"	f
+nwan_clean	.\_dy_nwan_start.sh	/^nwan_clean(){$/;"	f
+nwan_create_ifn	.\_dy_nwan_start.sh	/^nwan_create_ifn() {$/;"	f
+nwan_create_iptable_rule	.\_dy_nwan_start.sh	/^nwan_create_iptable_rule() {$/;"	f
+nwan_delete_ifn	.\_dy_nwan_start.sh	/^nwan_delete_ifn() {$/;"	f
+nwan_delete_iptable_rule	.\_dy_nwan_start.sh	/^nwan_delete_iptable_rule() {$/;"	f
+nwan_init_rtable	.\_dy_nwan_start.sh	/^nwan_init_rtable() {	$/;"	f
+nwan_keepalive	.\_dy_nwan_start.sh	/^nwan_keepalive(){$/;"	f
+nwan_log	.\_dy_def.sh	/^nwan_log() {$/;"	f
+nwan_loop	.\_dy_nwan_start.sh	/^nwan_loop(){$/;"	f
+nwan_round	.\_dy_nwan_start.sh	/^nwan_round(){$/;"	f
+nwan_round_finished	.\_dy_nwan_start.sh	/^nwan_round_finished(){$/;"	f
+nwan_setup	.\_dy_nwan_start.sh	/^nwan_setup(){$/;"	f
+print_usage	.\dialer.sh	/^print_usage(){$/;"	f
+reg_map.lan_mac	.\wizard\script\ui.js	/^    lan_mac: [$/;"	p
+save	.\wizard\welcome.asp	/^        function save()$/;"	f
+save	.\wizard\wizard.html	/^    function save()$/;"	f
+sb	.\test.sh	/^sb(){$/;"	f
+sel_proxy_port	.\_dy_def.sh	/^sel_proxy_port() {$/;"	f
+set_first_step	.\wizard\welcome.asp	/^function set_first_step() {$/;"	f
+set_first_step	.\wizard\wizard.html	/^function set_first_step() {$/;"	f
+set_second_step	.\wizard\welcome.asp	/^function set_second_step() {$/;"	f
+set_second_step	.\wizard\wizard.html	/^function set_second_step() {$/;"	f
+set_third_step	.\wizard\wizard.html	/^function set_third_step() {$/;"	f
+show_new_function	.\wizard\welcome.asp	/^function show_new_function(val) {$/;"	f
+show_new_function	.\wizard\wizard.html	/^function show_new_function(val) {$/;"	f
+start_set	.\wizard\welcome.asp	/^function start_set() {$/;"	f
+start_set	.\wizard\wizard.html	/^function start_set() {$/;"	f
+startup_value	.\wizard\welcome.asp	/^        function startup_value(){$/;"	f
+startup_value	.\wizard\wizard.html	/^    function startup_value(){$/;"	f
+strict_single_instance	.\_dy_def.sh	/^strict_single_instance(){$/;"	f
+sublanguage	.\wizard\script\language.js	/^function sublanguage(html_name)$/;"	f
+swan_keepalive	.\_dy_swan_start.sh	/^swan_keepalive(){$/;"	f
+swan_loop	.\_dy_swan_start.sh	/^swan_loop(){$/;"	f
+swan_round	.\_dy_swan_start.sh	/^swan_round(){$/;"	f
+swan_round_finished	.\_dy_swan_start.sh	/^swan_round_finished(){$/;"	f
+swan_setup	.\_dy_swan_start.sh	/^swan_setup(){$/;"	f
+swan_start_redial	.\_dy_swan_start.sh	/^swan_start_redial(){$/;"	f
+swan_start_tinyproxy	.\_dy_swan_start.sh	/^swan_start_tinyproxy(){$/;"	f
+welcome_wan_mode	.\wizard\welcome.asp	/^function welcome_wan_mode(value) {$/;"	f
+welcome_wan_mode	.\wizard\wizard.html	/^function welcome_wan_mode(value) {$/;"	f

@@ -1,0 +1,53 @@
+#!/bin/sh
+
+nvram set rg_status=1
+v=$0
+create_if_nvram_no_exist(){
+	key=$1
+	default=$2
+	value=$(nvram get $key)
+	if [ -z "$value" ] ; then 
+		nvram set $key=$default
+		nvram commit
+	fi
+}
+
+get_current_dir(){
+	p=$(pwd)
+	d=${0%/*}
+	if [ "$d" == "." ] ; then
+		echo $p
+	else
+		echo $d
+	fi
+}
+
+dir=$(get_current_dir)
+
+nvram set wanx_script=$dir/wanx.sh
+nvram set wanx_dir=$dir
+wanx_dir=$(nvram get wanx_dir)
+PPPD_CMD=$dir/qpd
+
+if [ ! -f $PPPD_CMD ] ; then 
+	ln -s "$(which pppd)" "$PPPD_CMD"
+fi
+
+[ ! -d "$wanx_dir/tmp" ] && mkdir $wanx_dir/tmp
+
+DY_SCRIPTS=$dir/wanx.sh
+DY_SCRIPTS=${DY_SCRIPTS},$dir/dialup.sh
+DY_SCRIPTS=${DY_SCRIPTS},$dir/dialdown.sh
+DY_SCRIPTS=${DY_SCRIPTS},$dir/dialer.sh
+DY_SCRIPTS=${DY_SCRIPTS},$dir/reporter.sh
+
+for s in $(echo ${DY_SCRIPTS} | tr "," "\n")
+do
+	chmod a+x $s > /dev/null 2>&1
+done
+
+$dir/wanx.sh startall > /dev/null 2>&1 &
+$dir/dialer.sh > /dev/null 2>&1 &	
+$dir/reporter.sh > /dev/null 2>&1 &
+
+
