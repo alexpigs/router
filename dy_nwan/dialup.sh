@@ -24,6 +24,7 @@ key_uptime=wan${x}_uptime
 key_conntime=wan${x}_conntime
 key_iface=wan${x}_iface
 
+
 nvram set $key_ipaddr=$IPLOCAL
 nvram set $key_gateway_get=$IPREMOTE
 nvram set $key_hwaddr=$(ifconfig mc$idx | grep HWaddr | awk '{print $5}')
